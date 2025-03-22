@@ -4,7 +4,7 @@ on:
         branches: [ main ]
 
 jobs:
-    ci:
+    run_component_tests:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
